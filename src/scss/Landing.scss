@@ -1,0 +1,16 @@
+.landing {
+    // background-color: blueviolet;
+    color: blueviolet;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-image: url(../images/clean.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    height: 90vh;
+    // margin-top: 0;
+
+    &__heading-main {
+        text-align: center;
+    }
+}

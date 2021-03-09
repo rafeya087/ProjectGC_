@@ -1,0 +1,62 @@
+.nav {
+    list-style: none;
+    border-bottom: 1px solid black;
+    box-shadow: 0 8px 8px rgba(black, 0.4);
+    display: flex;
+    padding: 10px 20px;
+    // margin-bottom: 0;
+    // position: absolute;
+    // width: 98.75vw;
+    top: 0;
+    z-index: 999999;
+    background-color: white;
+
+    li {
+        margin-right: 20px;
+        transform: translateY(-5px);
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+
+        &:hover {
+            font-weight: 700;
+        }
+    }
+}
+
+.navAuth {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 170px;
+    background-color: rgb(172, 107, 233);
+    color: white;
+    padding-top: 40px;
+
+    li {
+        margin-bottom: 20px;
+    }
+
+    li:not(:first-child) {
+        border-bottom: 1px solid black;
+    }
+
+    li:last-child {
+        border-bottom: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+
+        &:hover {
+            font-weight: 700;
+        }
+    }
+}
